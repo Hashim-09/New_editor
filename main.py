@@ -14,8 +14,6 @@ class MyGUI(QMainWindow):
         self.setWindowTitle("Text Editor")
         self.setWindowIcon(QIcon("Icons/file-word-solid.svg"))
 
-        self.setStyleSheet("QMainWindow {background-color: white; border-radius: 30px;}")
-
         #FONT SIZES
         self.action12px.triggered.connect(lambda: self.change_size(12))
         self.action18px.triggered.connect(lambda: self.change_size(18))

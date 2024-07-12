@@ -49,6 +49,9 @@
       <property name="frameShape">
        <enum>QFrame::NoFrame</enum>
       </property>
+      <property name="autoFormatting">
+       <set>QTextEdit::AutoBulletList</set>
+      </property>
       <property name="lineWrapMode">
        <enum>QTextEdit::NoWrap</enum>
       </property>
